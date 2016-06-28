@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		546430561D227B27008ED576 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 546430551D227B27008ED576 /* main.m */; };
+		546430591D227B27008ED576 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 546430581D227B27008ED576 /* AppDelegate.m */; };
+		5464305C1D227B27008ED576 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5464305B1D227B27008ED576 /* ViewController.m */; };
+		5464305F1D227B27008ED576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5464305D1D227B27008ED576 /* Main.storyboard */; };
+		546430611D227B27008ED576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546430601D227B27008ED576 /* Assets.xcassets */; };
+		546430641D227B27008ED576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546430621D227B27008ED576 /* LaunchScreen.storyboard */; };
+		5464306F1D227B27008ED576 /* CMJNavTabbarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5464306E1D227B27008ED576 /* CMJNavTabbarControllerTests.m */; };
+		5464307A1D227B27008ED576 /* CMJNavTabbarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 546430791D227B27008ED576 /* CMJNavTabbarControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5464306B1D227B27008ED576 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 546430491D227B27008ED576 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 546430501D227B27008ED576;
+			remoteInfo = CMJNavTabbarController;
+		};
+		546430761D227B27008ED576 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 546430491D227B27008ED576 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 546430501D227B27008ED576;
+			remoteInfo = CMJNavTabbarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		546430511D227B27008ED576 /* CMJNavTabbarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMJNavTabbarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		546430551D227B27008ED576 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		546430571D227B27008ED576 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		546430581D227B27008ED576 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5464305A1D227B27008ED576 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5464305B1D227B27008ED576 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5464305E1D227B27008ED576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		546430601D227B27008ED576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		546430631D227B27008ED576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		546430651D227B27008ED576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5464306A1D227B27008ED576 /* CMJNavTabbarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMJNavTabbarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5464306E1D227B27008ED576 /* CMJNavTabbarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMJNavTabbarControllerTests.m; sourceTree = "<group>"; };
+		546430701D227B27008ED576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546430751D227B27008ED576 /* CMJNavTabbarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMJNavTabbarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		546430791D227B27008ED576 /* CMJNavTabbarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMJNavTabbarControllerUITests.m; sourceTree = "<group>"; };
+		5464307B1D227B27008ED576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5464304E1D227B27008ED576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546430671D227B27008ED576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546430721D227B27008ED576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		546430481D227B27008ED576 = {
+			isa = PBXGroup;
+			children = (
+				546430531D227B27008ED576 /* CMJNavTabbarController */,
+				5464306D1D227B27008ED576 /* CMJNavTabbarControllerTests */,
+				546430781D227B27008ED576 /* CMJNavTabbarControllerUITests */,
+				546430521D227B27008ED576 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		546430521D227B27008ED576 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				546430511D227B27008ED576 /* CMJNavTabbarController.app */,
+				5464306A1D227B27008ED576 /* CMJNavTabbarControllerTests.xctest */,
+				546430751D227B27008ED576 /* CMJNavTabbarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		546430531D227B27008ED576 /* CMJNavTabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				546430571D227B27008ED576 /* AppDelegate.h */,
+				546430581D227B27008ED576 /* AppDelegate.m */,
+				5464305A1D227B27008ED576 /* ViewController.h */,
+				5464305B1D227B27008ED576 /* ViewController.m */,
+				5464305D1D227B27008ED576 /* Main.storyboard */,
+				546430601D227B27008ED576 /* Assets.xcassets */,
+				546430621D227B27008ED576 /* LaunchScreen.storyboard */,
+				546430651D227B27008ED576 /* Info.plist */,
+				546430541D227B27008ED576 /* Supporting Files */,
+			);
+			path = CMJNavTabbarController;
+			sourceTree = "<group>";
+		};
+		546430541D227B27008ED576 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				546430551D227B27008ED576 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5464306D1D227B27008ED576 /* CMJNavTabbarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5464306E1D227B27008ED576 /* CMJNavTabbarControllerTests.m */,
+				546430701D227B27008ED576 /* Info.plist */,
+			);
+			path = CMJNavTabbarControllerTests;
+			sourceTree = "<group>";
+		};
+		546430781D227B27008ED576 /* CMJNavTabbarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				546430791D227B27008ED576 /* CMJNavTabbarControllerUITests.m */,
+				5464307B1D227B27008ED576 /* Info.plist */,
+			);
+			path = CMJNavTabbarControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		546430501D227B27008ED576 /* CMJNavTabbarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5464307E1D227B27008ED576 /* Build configuration list for PBXNativeTarget "CMJNavTabbarController" */;
+			buildPhases = (
+				5464304D1D227B27008ED576 /* Sources */,
+				5464304E1D227B27008ED576 /* Frameworks */,
+				5464304F1D227B27008ED576 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMJNavTabbarController;
+			productName = CMJNavTabbarController;
+			productReference = 546430511D227B27008ED576 /* CMJNavTabbarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		546430691D227B27008ED576 /* CMJNavTabbarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546430811D227B27008ED576 /* Build configuration list for PBXNativeTarget "CMJNavTabbarControllerTests" */;
+			buildPhases = (
+				546430661D227B27008ED576 /* Sources */,
+				546430671D227B27008ED576 /* Frameworks */,
+				546430681D227B27008ED576 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5464306C1D227B27008ED576 /* PBXTargetDependency */,
+			);
+			name = CMJNavTabbarControllerTests;
+			productName = CMJNavTabbarControllerTests;
+			productReference = 5464306A1D227B27008ED576 /* CMJNavTabbarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		546430741D227B27008ED576 /* CMJNavTabbarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546430841D227B27008ED576 /* Build configuration list for PBXNativeTarget "CMJNavTabbarControllerUITests" */;
+			buildPhases = (
+				546430711D227B27008ED576 /* Sources */,
+				546430721D227B27008ED576 /* Frameworks */,
+				546430731D227B27008ED576 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				546430771D227B27008ED576 /* PBXTargetDependency */,
+			);
+			name = CMJNavTabbarControllerUITests;
+			productName = CMJNavTabbarControllerUITests;
+			productReference = 546430751D227B27008ED576 /* CMJNavTabbarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		546430491D227B27008ED576 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zgtx;
+				TargetAttributes = {
+					546430501D227B27008ED576 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					546430691D227B27008ED576 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 546430501D227B27008ED576;
+					};
+					546430741D227B27008ED576 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 546430501D227B27008ED576;
+					};
+				};
+			};
+			buildConfigurationList = 5464304C1D227B27008ED576 /* Build configuration list for PBXProject "CMJNavTabbarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 546430481D227B27008ED576;
+			productRefGroup = 546430521D227B27008ED576 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				546430501D227B27008ED576 /* CMJNavTabbarController */,
+				546430691D227B27008ED576 /* CMJNavTabbarControllerTests */,
+				546430741D227B27008ED576 /* CMJNavTabbarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5464304F1D227B27008ED576 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546430641D227B27008ED576 /* LaunchScreen.storyboard in Resources */,
+				546430611D227B27008ED576 /* Assets.xcassets in Resources */,
+				5464305F1D227B27008ED576 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546430681D227B27008ED576 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546430731D227B27008ED576 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5464304D1D227B27008ED576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5464305C1D227B27008ED576 /* ViewController.m in Sources */,
+				546430591D227B27008ED576 /* AppDelegate.m in Sources */,
+				546430561D227B27008ED576 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546430661D227B27008ED576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5464306F1D227B27008ED576 /* CMJNavTabbarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546430711D227B27008ED576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5464307A1D227B27008ED576 /* CMJNavTabbarControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5464306C1D227B27008ED576 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 546430501D227B27008ED576 /* CMJNavTabbarController */;
+			targetProxy = 5464306B1D227B27008ED576 /* PBXContainerItemProxy */;
+		};
+		546430771D227B27008ED576 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 546430501D227B27008ED576 /* CMJNavTabbarController */;
+			targetProxy = 546430761D227B27008ED576 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5464305D1D227B27008ED576 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5464305E1D227B27008ED576 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		546430621D227B27008ED576 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				546430631D227B27008ED576 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5464307C1D227B27008ED576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5464307D1D227B27008ED576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5464307F1D227B27008ED576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CMJNavTabbarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zgxcw.CMJNavTabbarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		546430801D227B27008ED576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CMJNavTabbarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zgxcw.CMJNavTabbarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		546430821D227B27008ED576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CMJNavTabbarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zgxcw.CMJNavTabbarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CMJNavTabbarController.app/CMJNavTabbarController";
+			};
+			name = Debug;
+		};
+		546430831D227B27008ED576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CMJNavTabbarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zgxcw.CMJNavTabbarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CMJNavTabbarController.app/CMJNavTabbarController";
+			};
+			name = Release;
+		};
+		546430851D227B27008ED576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CMJNavTabbarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zgxcw.CMJNavTabbarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CMJNavTabbarController;
+			};
+			name = Debug;
+		};
+		546430861D227B27008ED576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CMJNavTabbarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zgxcw.CMJNavTabbarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CMJNavTabbarController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5464304C1D227B27008ED576 /* Build configuration list for PBXProject "CMJNavTabbarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5464307C1D227B27008ED576 /* Debug */,
+				5464307D1D227B27008ED576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5464307E1D227B27008ED576 /* Build configuration list for PBXNativeTarget "CMJNavTabbarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5464307F1D227B27008ED576 /* Debug */,
+				546430801D227B27008ED576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		546430811D227B27008ED576 /* Build configuration list for PBXNativeTarget "CMJNavTabbarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546430821D227B27008ED576 /* Debug */,
+				546430831D227B27008ED576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		546430841D227B27008ED576 /* Build configuration list for PBXNativeTarget "CMJNavTabbarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546430851D227B27008ED576 /* Debug */,
+				546430861D227B27008ED576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 546430491D227B27008ED576 /* Project object */;
+}
