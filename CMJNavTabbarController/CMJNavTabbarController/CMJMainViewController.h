@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CMJMainViewController.h
 //  CMJNavTabbarController
 //
 //  Created by ChiMJ on 2016/6/28.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CMJMainViewController : UIViewController
 
 @end
-
