@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "546430501D227B27008ED576"
+               BlueprintIdentifier = "5464308F1D227BD2008ED576"
                BuildableName = "CMJNavTabbarController.app"
                BlueprintName = "CMJNavTabbarController"
                ReferencedContainer = "container:CMJNavTabbarController.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "546430691D227B27008ED576"
+               BlueprintIdentifier = "546430A81D227BD2008ED576"
                BuildableName = "CMJNavTabbarControllerTests.xctest"
                BlueprintName = "CMJNavTabbarControllerTests"
                ReferencedContainer = "container:CMJNavTabbarController.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "546430741D227B27008ED576"
+               BlueprintIdentifier = "546430B31D227BD2008ED576"
                BuildableName = "CMJNavTabbarControllerUITests.xctest"
                BlueprintName = "CMJNavTabbarControllerUITests"
                ReferencedContainer = "container:CMJNavTabbarController.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "546430501D227B27008ED576"
+            BlueprintIdentifier = "5464308F1D227BD2008ED576"
             BuildableName = "CMJNavTabbarController.app"
             BlueprintName = "CMJNavTabbarController"
             ReferencedContainer = "container:CMJNavTabbarController.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "546430501D227B27008ED576"
+            BlueprintIdentifier = "5464308F1D227BD2008ED576"
             BuildableName = "CMJNavTabbarController.app"
             BlueprintName = "CMJNavTabbarController"
             ReferencedContainer = "container:CMJNavTabbarController.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "546430501D227B27008ED576"
+            BlueprintIdentifier = "5464308F1D227BD2008ED576"
             BuildableName = "CMJNavTabbarController.app"
             BlueprintName = "CMJNavTabbarController"
             ReferencedContainer = "container:CMJNavTabbarController.xcodeproj">
