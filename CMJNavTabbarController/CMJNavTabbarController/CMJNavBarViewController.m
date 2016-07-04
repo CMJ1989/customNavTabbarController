@@ -6,17 +6,17 @@
 //  Copyright © 2016年 zgtx. All rights reserved.
 //
 
-#import "CMJMainViewController.h"
+#import "CMJNavBarViewController.h"
 
-@interface CMJMainViewController ()
+@interface CMJNavBarViewController ()
 
 @end
 
-@implementation CMJMainViewController
+@implementation CMJNavBarViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {

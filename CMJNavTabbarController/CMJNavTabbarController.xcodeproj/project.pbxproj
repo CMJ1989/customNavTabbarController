@@ -12,7 +12,10 @@
 		546430A01D227BD2008ED576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5464309F1D227BD2008ED576 /* Assets.xcassets */; };
 		546430AE1D227BD2008ED576 /* CMJNavTabbarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 546430AD1D227BD2008ED576 /* CMJNavTabbarControllerTests.m */; };
 		546430B91D227BD2008ED576 /* CMJNavTabbarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 546430B81D227BD2008ED576 /* CMJNavTabbarControllerUITests.m */; };
-		546430C81D227E25008ED576 /* CMJMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546430C71D227E25008ED576 /* CMJMainViewController.m */; };
+		546430C81D227E25008ED576 /* CMJNavBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546430C71D227E25008ED576 /* CMJNavBarViewController.m */; };
+		54B857C71D24C4200028CE36 /* CMJNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B857C61D24C4200028CE36 /* CMJNavBar.m */; };
+		54B857CD1D24C4560028CE36 /* CMJNavBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B857CC1D24C4560028CE36 /* CMJNavBarItem.m */; };
+		54B857D31D24C7620028CE36 /* CMJNavItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B857D21D24C7620028CE36 /* CMJNavItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +48,14 @@
 		546430B41D227BD2008ED576 /* CMJNavTabbarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMJNavTabbarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		546430B81D227BD2008ED576 /* CMJNavTabbarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMJNavTabbarControllerUITests.m; sourceTree = "<group>"; };
 		546430BA1D227BD2008ED576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		546430C61D227E25008ED576 /* CMJMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMJMainViewController.h; sourceTree = "<group>"; };
-		546430C71D227E25008ED576 /* CMJMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMJMainViewController.m; sourceTree = "<group>"; };
+		546430C61D227E25008ED576 /* CMJNavBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMJNavBarViewController.h; sourceTree = "<group>"; };
+		546430C71D227E25008ED576 /* CMJNavBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMJNavBarViewController.m; sourceTree = "<group>"; };
+		54B857C51D24C4200028CE36 /* CMJNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMJNavBar.h; sourceTree = "<group>"; };
+		54B857C61D24C4200028CE36 /* CMJNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMJNavBar.m; sourceTree = "<group>"; };
+		54B857CB1D24C4560028CE36 /* CMJNavBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMJNavBarItem.h; sourceTree = "<group>"; };
+		54B857CC1D24C4560028CE36 /* CMJNavBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMJNavBarItem.m; sourceTree = "<group>"; };
+		54B857D11D24C7620028CE36 /* CMJNavItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMJNavItem.h; sourceTree = "<group>"; };
+		54B857D21D24C7620028CE36 /* CMJNavItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMJNavItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +108,14 @@
 			children = (
 				546430961D227BD2008ED576 /* AppDelegate.h */,
 				546430971D227BD2008ED576 /* AppDelegate.m */,
-				546430C61D227E25008ED576 /* CMJMainViewController.h */,
-				546430C71D227E25008ED576 /* CMJMainViewController.m */,
+				546430C61D227E25008ED576 /* CMJNavBarViewController.h */,
+				546430C71D227E25008ED576 /* CMJNavBarViewController.m */,
+				54B857C51D24C4200028CE36 /* CMJNavBar.h */,
+				54B857C61D24C4200028CE36 /* CMJNavBar.m */,
+				54B857D11D24C7620028CE36 /* CMJNavItem.h */,
+				54B857D21D24C7620028CE36 /* CMJNavItem.m */,
+				54B857CB1D24C4560028CE36 /* CMJNavBarItem.h */,
+				54B857CC1D24C4560028CE36 /* CMJNavBarItem.m */,
 				5464309F1D227BD2008ED576 /* Assets.xcassets */,
 				546430A41D227BD2008ED576 /* Info.plist */,
 				546430931D227BD2008ED576 /* Supporting Files */,
@@ -263,7 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				546430981D227BD2008ED576 /* AppDelegate.m in Sources */,
-				546430C81D227E25008ED576 /* CMJMainViewController.m in Sources */,
+				546430C81D227E25008ED576 /* CMJNavBarViewController.m in Sources */,
+				54B857C71D24C4200028CE36 /* CMJNavBar.m in Sources */,
+				54B857D31D24C7620028CE36 /* CMJNavItem.m in Sources */,
+				54B857CD1D24C4560028CE36 /* CMJNavBarItem.m in Sources */,
 				546430951D227BD2008ED576 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,6 +491,7 @@
 				546430BF1D227BD2008ED576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		546430C01D227BD2008ED576 /* Build configuration list for PBXNativeTarget "CMJNavTabbarControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +500,7 @@
 				546430C21D227BD2008ED576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		546430C31D227BD2008ED576 /* Build configuration list for PBXNativeTarget "CMJNavTabbarControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +509,7 @@
 				546430C51D227BD2008ED576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

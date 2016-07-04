@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CMJMainViewController : UIViewController
+@interface CMJNavBarViewController : UIViewController
 
 @end
